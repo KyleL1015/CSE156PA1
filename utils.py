@@ -1,4 +1,5 @@
 # utils.py
+import numpy as np
 
 
 class Indexer(object):
@@ -64,4 +65,3 @@ class Indexer(object):
             self.objs_to_ints[object] = new_idx
             self.ints_to_objs[new_idx] = object
         return self.objs_to_ints[object]
-

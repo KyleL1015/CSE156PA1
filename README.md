@@ -1,0 +1,1 @@
+The method to run the code for my DAN model is the exact same as the default method. Simply use 'python main.py --model BOW'.
